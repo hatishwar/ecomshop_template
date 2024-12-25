@@ -1,0 +1,19 @@
+.separator-image {
+  max-width: 100%; /* Ensure no overflow */
+  margin: 2rem 0; /* Add spacing above and below */
+}
+
+.separator-overlay {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Enhance text visibility */
+  letter-spacing: 1px; /* Improve readability */
+  text-align: center; /* Center-align text */
+  padding: 1rem; /* Add some padding for better layout */
+}
+
+@media (max-width: 768px) {
+  .separator-overlay {
+    font-size: 1rem; /* Adjust text size for smaller screens */
+  }
+}
+
+
